@@ -27,6 +27,7 @@
     if (_circleV) {
         [_circleV removeFromSuperview];
     }
+    
     _circleV = [[CircleView alloc] initWithFrame:CGRectMake(200, 100, 200, 200)];
     //进度条宽度
     _circleV.strokelineWidth = 15;
