@@ -49,7 +49,6 @@
         
     }else{
         
-        
         self.numbLb.attributedText = [self labelStytle:progress];
         
         UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(self.bounds.size.width/2, self.bounds.size.height/2) radius:self.bounds.size.width/2 - _strokelineWidth startAngle:M_PI_2 endAngle:M_PI_2 + M_PI*2 clockwise:YES];
